@@ -1,0 +1,101 @@
+html{
+    background:silver;
+}
+h1{
+color:midnightblue;
+font-weight: bold;
+font-size: 30px;
+
+}
+p{
+    color:black ;
+    font-weight: bold;
+
+}
+h2{
+    color:midnightblue;
+      font-weight: bold;
+}
+h3{
+  color:black;
+}
+li{
+color:black;
+  font-weight: bold;
+
+}
+.circle {
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.cv-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+}
+
+.cv-box:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.cv-box {
+  background-color: #d9d9d9; 
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  color: #333; 
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.contact-section {
+  background-color: #d9d9d9; 
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  color: #333;
+}
+
+.contact-section i {
+  color: #2a5298; 
+  margin-right: 10px;
+  width: 20px;   
+  text-align: center;
+}
+
+.contact-section p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+
+.contact-section p:hover i {
+  color: #ff7f50; 
+  transition: 0.3s;
+}
+.cv-box {
+  animation: fadeIn 1s ease-in-out;
+}
+.cv-box:hover {
+  transform: scale(1.05) translateY(-5px);
+  transition: 0.3s;
+}
+.cv-box {
+  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+h1:hover, h2:hover {
+  color: #da0f0f;
+  transition: 0.3s;
+}
